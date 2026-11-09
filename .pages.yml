@@ -1,0 +1,24 @@
+media:
+  # Pasta onde as imagens enviadas pelo painel serão salvas no repositório
+  input: docs/public/images 
+  # Caminho que será injetado no Markdown quando você inserir a imagem
+  output: /images
+
+content:
+  - name: docs
+    label: Documentação VitePress
+    type: collection
+    # Pasta onde estão os arquivos .md da sua documentação
+    path: docs
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: description
+        label: Descrição
+        type: string
+      # O tipo 'rich-text' renderiza o editor visual de Markdown do Pages CMS
+      - name: body
+        label: Corpo do Texto
+        type: rich-text
