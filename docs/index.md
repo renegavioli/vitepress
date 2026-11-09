@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "Vitepress"
-  text: "Um protótipo de documentação utilizando Vitepress"
-  tagline: My great project tagline
+  name: "CARDIO"
+  text: "Um repositório para você documentação utilizando Vitepress"
+  tagline: Soluções para atenção primária
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Protocolo Clínico CARDIO
+      link: /protocolos/Protocolo_Clinico
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Soluçõe CARDIO
+      link: /solucoes
 
 features:
   - title: Feature A
